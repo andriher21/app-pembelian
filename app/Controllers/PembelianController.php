@@ -326,7 +326,7 @@ class PembelianController extends BaseController
         
         $msg = [
             'sukses' =>[
-                'url' => '/barang'
+                'url' => '/pembelian'
             ]
             ];
         return json_encode($msg);
